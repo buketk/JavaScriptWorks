@@ -1,0 +1,117 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: 'Raleway', sans-serif;
+}
+
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0.5rem;
+}
+
+#navbar ul li a:hover {
+    background: black ;
+    border-radius: 5px;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid gray;
+    letter-spacing: 0.5rem;
+}
+#home img{
+    max-width: 15%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#home .name h2 {
+   margin-top: 0.75rem;
+   margin-bottom: 0.75rem;
+
+}
+
+#home .name p {
+margin-bottom: 0.5rem;
+}
+
+#training {
+    padding: 1rem;
+    color: #fff;
+}
+
+#training .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#training .items .item {
+    width: 33%;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+#training .items .item:hover {
+    color: black;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  Iconlar için*/
+/*
+#home a{
+    text-decoration: none;
+    text-align: center;
+}
+#home i {
+    margin-top: 2rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    border-radius: 100%;
+    background: #495057;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+#home i:hover {
+    background-color: black;
+}
+*/
+
+
